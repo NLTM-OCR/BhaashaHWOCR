@@ -5,7 +5,6 @@
 
 ## Setup
 - Using Python = 3.10+
-- Install Tesseract (V5.4.1) from [Official source](https://tesseract-ocr.github.io/tessdoc/Installation.html)
 - Install Dependencies `pip install -r requirements.txt`
 
 ## Inference (New)
