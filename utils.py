@@ -225,7 +225,7 @@ def get_vocabulary(voc, voc_type, lowercase, alphanumeric, EOS=None, PADDING=Non
 	else:
 		voc_file = voc
 		voc = list()
-		with open('alphabet/{}'.format(voc_file)) as f:
+		with open(voc_file, encoding='utf-8') as f:
 			for line in f:
 				ch = line[:-1]
 				# ch = unicodedata.normalize('NFKD', line[:-1])

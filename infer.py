@@ -198,7 +198,7 @@ if __name__ == "__main__":
     # opt.layout_pretrained = join(opt.pretrained, 'layout.pt')
     # opt.alphabet = f'alphabet/{opt.language}_lexicon.txt'
     opt.alphabet = join(opt.pretrained, 'lexicon.txt')
-    if not os.path.exists(join(opt.pretrained, 'layout1.traineddata')):
+    if not os.path.exists(join(opt.pretrained, 'layout.pt')):
         print(f'No Layout model file found at: {opt.pretrained}')
         exit(1)
     if not os.path.exists(opt.ocr_pretrained):
